@@ -2,7 +2,7 @@
 title: "Linked Open Data"
 slug: linked-open-data
 img: /images/linked-open-data.jpg
-imgCaption: "caption here"
+imgCaption: "caption here!"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
