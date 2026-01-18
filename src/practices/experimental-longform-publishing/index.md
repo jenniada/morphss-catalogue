@@ -3,7 +3,7 @@ title: Experimental Longform Publishing (Multivocal, Combinatorial, or
   Epistolary Monographs)
 slug: experimental-longform-publishing
 img: /images/experimental-longform.png
-imgCaption: caption here
+imgCaption: Experimental Publishing Compendium by the COPIM project
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
