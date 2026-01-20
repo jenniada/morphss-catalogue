@@ -7,6 +7,14 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+  <div class="logo-bar">
+    <div class="container">
+      <a href="https://morphss.hcommons.org" target="_blank" rel="noopener">
+        <img src="/images/MORPHSS.png" alt="MORPHSS" class="morphss-logo">
+      </a>
+    </div>
+  </div>
+  
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">
@@ -78,7 +86,8 @@
         <ul class="output-list">
         
           <li class="output-item">
-            <p class="citation">Greenwood, M. et al. (2022). '</p>
+            <p class="citation">Greenwood, M. et al. (2022). 'Let's Grow Together: Understanding the Current Provision of Early Childhood Development and Education for Children with Disabilities in Rural Malawi through Community-Based Participatory Research', <em>International Journal of Disability, Development, and Education</em>, 69(4), 1200–1215.
+</p>
             
             <p class="doi"><a href="https://doi.org/10.1080/1034912X.2020.1786021">https://doi.org/10.1080/1034912X.2020.1786021</a>.</p>
             
@@ -175,6 +184,27 @@
       </div>
     </div>
   </footer>
+  
+  <script>
+    (function() {
+      const logoBar = document.querySelector('.logo-bar');
+      let lastScroll = 0;
+      
+      window.addEventListener('scroll', function() {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll <= 0) {
+          logoBar.classList.remove('logo-bar--hidden');
+        } else if (currentScroll > lastScroll) {
+          logoBar.classList.add('logo-bar--hidden');
+        } else {
+          logoBar.classList.remove('logo-bar--hidden');
+        }
+        
+        lastScroll = currentScroll;
+      });
+    })();
+  </script>
 </body>
 </html>
 

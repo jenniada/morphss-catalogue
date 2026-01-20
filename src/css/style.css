@@ -75,6 +75,32 @@ blockquote p:last-child {
   width: 100%;
 }
 
+/* Logo Bar */
+.logo-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  padding: var(--spacing-md) 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-bar--hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.logo-bar .container {
+  display: flex;
+  align-items: center;
+}
+
+.morphss-logo {
+  height: 48px;
+  width: auto;
+}
+
 /* Header */
 .site-header {
   padding: var(--spacing-lg) 0;
