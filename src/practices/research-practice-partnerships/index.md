@@ -12,9 +12,9 @@ A form of co-production, Research-Practice Partnerships (RPPs) seek to bring res
 
 In the context of education, RPPs are 'long-term collaborations designed to improve and transform educational practice by enabling researchers and practitioners to share their diverse perspectives and expertise' (Farrell et al., 2021, 38). These open-ended partnerships, which are not confined to the completion of an individual project and which may be initiated by researchers, practitioners or funders (Coburn & Penuel, 2016, 49), can incorporate diverse stakeholders and goals:
 
-Goals can be narrowly focused, such as improving literacy attainment, or broadly aimed at addressing systemic inequities. [RPPs'] composition ranges from small collaborations to multi-tiered networks involving schools, universities, national and/or community organizations and/or others. Research approaches differ, including co-design, evaluation, and improvement science, while funding shapes their scope and sustainability.
-
-(McGeown & Sjölund, 2025, 2)
+> Goals can be narrowly focused, such as improving literacy attainment, or broadly aimed at addressing systemic inequities. [RPPs'] composition ranges from small collaborations to multi-tiered networks involving schools, universities, national and/or community organizations and/or others. Research approaches differ, including co-design, evaluation, and improvement science, while funding shapes their scope and sustainability.
+> 
+> (McGeown & Sjölund, 2025, 2)
 
 RPPs 'have focused on issues as diverse as reducing dropout rates, designing and implementing science curricula, improving instruction for language learners, evaluating district policies, designing systemwide approaches to teacher professional learning, linking organizations serving community youth, and many others' (Coburn et al., 2021, 15). The specific methodologies of RPPs vary: they may draw on participatory methodologies as part of a co-design approach or, if focused on evaluating the efficacy of an intervention, may employ more experimental or observational approaches (Penuel & Hill, 2019, 2). What these endeavours share, however, is a mutuality which recognises the necessity for research to meet the needs and priorities of educational practitioners and authorities and consequently to be designed and implemented collaboratively - with involvement from both partners in each stage of the research cycle - to address these.
 
