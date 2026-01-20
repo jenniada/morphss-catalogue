@@ -4,6 +4,9 @@ slug: sharing-creatively-refigured-data
 types:
   - accessible-communication
   - evidentiary
+disciplines:
+  - ah
+  - ss
 img: /images/creative-data.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
