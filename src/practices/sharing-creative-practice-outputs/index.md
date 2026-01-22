@@ -1,7 +1,10 @@
 ---
 title: "Sharing Creative Practice Outputs"
 slug: sharing-creative-practice-outputs
-type: evidentiary
+types: 
+  - evidentiary
+  - availability
+discipline: ah
 img: /images/creative-outputs.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
