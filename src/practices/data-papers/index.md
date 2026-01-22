@@ -5,7 +5,7 @@ types:
   - process
   - evidentiary
   - availability
-disciplines
+disciplines:
   - ah
   - ss
 img: /images/data-papers.jpg
