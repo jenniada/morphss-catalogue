@@ -1,7 +1,10 @@
 ---
 title: "Research-Practice Partnerships"
 slug: research-practice-partnerships
-type: participatory
+types: 
+  - participatory
+  - epistemic
+discipline: ss
 img: /images/rpp.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
