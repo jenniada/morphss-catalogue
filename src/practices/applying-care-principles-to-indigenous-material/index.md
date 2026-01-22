@@ -1,7 +1,13 @@
 ---
 title: "Applying the CARE Principles to Data from Marginalised Communities"
 slug: applying-care-principles-to-indigenous-material
-type: epistemic
+types:
+  - participatory
+  - epistemic
+  - evidentiary
+disciplines:
+  - ah
+  - ss
 img: /images/care-principles.jpg
 imgCaption: "Image Courtesy: Canva"
 lastUpdated: 2026-01-14
