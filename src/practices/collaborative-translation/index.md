@@ -1,7 +1,13 @@
 ---
 title: "Collaborative Translation (Co-translation, Collaborative translation, Community translation, Collective translation, or Commoning translation)"
 slug: collaborative-translation
-type: participatory
+types: 
+  - participatory
+  - epistemic
+  - accessible-communication
+disciplines:
+  - ah
+  - ss
 img: /images/collaborative-translation.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
