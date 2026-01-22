@@ -7,6 +7,7 @@ imgCaption: "Image: Recording a podcast at the University of Cambridge"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: English, history, music, sociology*
 
 Scholarly podcasting is a relatively new phenomenon in the landscape of public scholarship. While the technology has been in existence for many years, podcasting as a form of academic engagement has even recently been described as 'in its infancy' (Densley et al., 2025). However, the popularity and promise of scholarly podcasting have been rapidly increasing, with this 'creative method of qualitative research dissemination' praised and acknowledged 'for its effectiveness and accessibility' (Densley et al. 2025).
 
