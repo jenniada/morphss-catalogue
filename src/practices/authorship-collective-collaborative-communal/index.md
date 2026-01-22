@@ -1,7 +1,11 @@
 ---
 title: "Authorship (Collective, Collaborative or Communal)"
 slug: authorship-collective-collaborative-communal
-type: participatory
+types: 
+  - participatory
+  - epistemic
+disciplines:
+  - ah
 img: /images/authorship.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
