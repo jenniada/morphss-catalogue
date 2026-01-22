@@ -1,7 +1,12 @@
 ---
 title: "Open Materials"
 slug: open-materials
-type: process
+types: 
+  - process
+  - availability
+disciplines:
+  - ah
+  - ss
 img: /images/open-materials.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
