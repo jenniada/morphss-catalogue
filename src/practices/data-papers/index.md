@@ -1,7 +1,13 @@
 ---
 title: "Data Papers"
 slug: data-papers
-type: evidentiary
+types: 
+  - process
+  - evidentiary
+  - availability
+disciplines
+  - ah
+  - ss
 img: /images/data-papers.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
