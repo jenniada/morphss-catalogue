@@ -1,7 +1,12 @@
 ---
 title: "Public Scholarship"
 slug: public-scholarship
-type: accessible-communication
+types: 
+  - availability
+  - accessible-communication
+disciplines:
+  -  ah
+  -  ss
 img: /images/public-scholarship.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
