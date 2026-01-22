@@ -3,9 +3,9 @@ title: Experimental Longform Publishing (Multivocal, Combinatorial, or
   Epistolary Monographs)
 slug: experimental-longform-publishing
 types:
-  - process
   - participatory
   - epistemic
+  - process
   - availability
 disciplines:
   - ah
