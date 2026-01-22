@@ -1,12 +1,17 @@
 ---
 title: "Open Documentation of Creative Methods"
 slug: open-documentation-of-creative-methods
-type: process
+types: 
+  - process
+  - evidentiary
+  - availability
+discipline: ah
 img: /images/creative-methods.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: creative arts (including performance, fine arts, digital media, music), creative writing, curation, design, but may also include a variety of humanities disciplines* 
 
 Open documentation of creative methods is the digitising and public online sharing of materials relating to the methods used in the production of a creative practice output. Outputs are understood to be the completed creative work brought into being by creative practice methods of research, which may include many types of works in performance, fine art, digital art and media, music, and creative writing, among other creative practices. The processes towards their making may be documented in various media types, such as images, video, audio files (such as sound recordings), text and text descriptions, 3D models, score drafts, storyboards, sketchbooks, or primary and secondary resources, and will support or directly reveal the research process undertaken.
 
@@ -16,7 +21,7 @@ Research data in the creative arts is not homogenous and standardised, but 'tang
 
 Creative practice researchers may also not be accustomed to documenting their practice in detailed ways as they are creating the work or output, though the tide is shifting. Within the UK context, the change in REF21 requirements for those 'significantly responsible for research' led to the inclusion of more practice-based research, and documentation of methods and practices towards the final output came under more scrutiny. Many of the 'portfolios' of research were created with documentation of both the output and the methods, alongside documentation of dissemination (performances, exhibition, etc) and the requisite 300-word statement. The packages of documentation are intended to show the 'originality, significance, and rigour' of a creative practice output, while also showing they also led to 'new insights, effectively shared' (REF 2021, n.d).
 
-While research assessment exercises are only one aspect of what defines research, they do provide us with the phrase 'process of investigation', which is helpful in considering what may be used to document creative practice methods. The process of investigation within the creative arts complicates the traditional methods of research that do not include a practice element, which often begin with a defined research question, or set of research questions, proceed to apply a defined methodology and set of methods, and then find their answers. As Hope (2016) reminds us, practice research complicates 'these dynamics as the questions and methodology emerge through making, doing, and testing things out,' which mean processes employed will be 'iterative, improvised, and intuitive resulting in cyclical or reciprocal research dynamics', not a single-minded pursuit of answers. This approach 'does not mean the process is any less rigorous', rather that theory and practice are often intertwined at different points in the practice (Hope, 2016). This means documentation is not as simple as a bullet-pointed methodology document and appendix of supporting materials, and may include various, more complex types of documentation.
+While research assessment exercises are only one aspect of what defines research, they do provide us with the phrase 'process of investigation', which is helpful in considering what may be used to document creative practice methods. The process of investigation within the creative arts complicates the traditional methods of research that do not include a practice element, which often begin with a defined research question, or set of research questions, proceed to apply a defined methodology and set of methods, and then find their answers. As Hope (2016) reminds us, practice research complicates 'these dynamics as the questions and methodology *emerge through making*, doing, and testing things out,' which mean processes employed will be 'iterative, improvised, and intuitive resulting in cyclical or reciprocal research dynamics', not a single-minded pursuit of answers. This approach 'does not mean the process is any less rigorous', rather that theory and practice are often intertwined at different points in the practice (Hope, 2016). This means documentation is not as simple as a bullet-pointed methodology document and appendix of supporting materials, and may include various, more complex types of documentation.
 
 There can be difficulties and challenges around making creative practice research content open, which includes the supporting data that documents processes and methods. These can include 'issues surrounding informed consent, intellectual property, and the reuse of the research data' (Broadhead & Gonnett, 2025), which can lead to legal and ethical dilemmas, no matter how in favour of openness an institution or individual academic may be. While CC-BY licences are useful and widely used in setting permissions for reuse of creative practice data, there are still anxieties surrounding their potential misuse (Broadhead & Gonnett, 2025).
 
@@ -24,7 +29,7 @@ Where more openly permissive licences are conventionally applied to more standar
 
 However, there are clear benefits from opening the processes, and therefore the 'research data' of creative practice research, which 'provide substantial benefits for the wider research community' (Bulley & Sahin, 2021, 24). Redefining data 'in a productive way' entails a wide scope that includes 'all materials used and produced in arts and humanities research' (Gualandi et al., 2022). This must also include an understanding that 'the creative act is an experiment [...] which could not otherwise be explored by other methods' (Skains, 2018), and that 'traditional research paradigms and methods of inquiry may be inadequate to address the complexity of the way people engage with ideas, theories, information, and experience' (Biggs & Buchler, 2010, in Meece et al., 2017). Widening understanding of how research is conducted and how knowledge is created in creative practice disciplines will ultimately allow for more full and appropriate sharing of methods and data, at levels of openness that honour the essential nuances of each practice.
 
-## References
+## Further reading, resources and references
 
 Broadhead, S. and Gonnet, H. (2025) 'Creative Dilemmas: Balancing Open Access and Integrity', *Exchanges: The Interdisciplinary Research Journal*, 12(3), 31–49. [https://doi.org/10.31273/eirj.v12i3.1817](https://doi.org/10.31273/eirj.v12i3.1817)
 

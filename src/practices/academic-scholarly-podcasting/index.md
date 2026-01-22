@@ -1,12 +1,18 @@
 ---
 title: "Academic/Scholarly Podcasting"
 slug: academic-scholarly-podcasting
-type: accessible-communication
+types: 
+  - availability
+  - accessible-communication
+disciplines:
+  - ah
+  - ss
 img: /images/podcasting.jpg
 imgCaption: "Image: Recording a podcast at the University of Cambridge"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: English, history, music, sociology*
 
 Scholarly podcasting is a relatively new phenomenon in the landscape of public scholarship. While the technology has been in existence for many years, podcasting as a form of academic engagement has even recently been described as 'in its infancy' (Densley et al., 2025). However, the popularity and promise of scholarly podcasting have been rapidly increasing, with this 'creative method of qualitative research dissemination' praised and acknowledged 'for its effectiveness and accessibility' (Densley et al. 2025).
 
@@ -30,7 +36,8 @@ The question of peer review involvement is a 'key consideration' in current podc
 
 Scholars appreciate and employ podcasts for a variety of research purposes, including to 'work out ideas that are not yet fully formed,' and these 'discussions or monologues they might have during a podcast function as a sort of sense-making in the moment' (Beckstead et al., 2024). Podcasts of this sort are also essential and must be appreciated and understood as examples of open research methodology and not treated solely as a research output. Therefore, the creator's intention and scholarly podcast type must be considered. Podcasts could essentially fall into multiple categories, then - as forms of dissemination, as classified here, or as methodological transparency or even a form of peer review (see 'open peer review' entry).
 
-## Further reading
+
+## Further reading / resources
 
 Beckstead, L. (2024) *Podcast or Perish: Peer Review and Knowledge Creation for the 21st Century*. 1st ed. New York: Bloomsbury Academic (Bloomsbury Podcast Studies). [https://doi.org/10.5040/9781501385179](https://doi.org/10.5040/9781501385179) 
 
@@ -45,6 +52,7 @@ McGregor, H. (2022) ‘Podcast Studies’, in *Oxford Research Encyclopedia of L
 Persohn, L. and Branson, S. (2024) ‘Broadening Legitimacy of Scholarly Podcasting as Knowledge Dissemination: Metrics, Opportunities and Considerations’, *Publishing Research Quarterly*, 40(3), 269–286. [https://doi.org/10.1007/s12109-024-10005-5](https://doi.org/10.1007/s12109-024-10005-5)
 
 Sewell, A. (2025) ‘Giving Voice to Community: Embodied Scholarship, Generative Discussion, and Other Affordances of Scholarly Podcasting’, *The Journal of Electronic Publishing*, 28(1). [https://doi.org/10.3998/jep.6036](https://doi.org/10.3998/jep.6036) 
+
 
 ## References
 
