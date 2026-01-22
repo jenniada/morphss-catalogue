@@ -7,6 +7,7 @@ imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: anthropology, education, geography, law, management, sociology, social work*
 
 Positionality refers to an understanding and recognition of the researcher's standpoint: the standpoint from which knowledge is produced. Foregrounding of positionality can take the form of brief acknowledgement of a researcher's positioning - e.g. via a positionality statement - or more sustained, holistic and embedded self-examination of the impact of the researcher's positioning at all stages of the research. The latter is termed reflexivity and is addressed in a separate entry; we focus here on positionality itself and its articulation in positionality statements.
 
@@ -20,7 +21,21 @@ In response to such criticisms, Boveda and Annamma (2023) present fellow researc
 
 Tools to assist researchers in reflecting on and articulating their own positioning include Jacobson and Mustafa's (2019) Social Identity Map. Developed in the context of critical qualitative health research, the map offers a simple three-tiered structure to aid researchers in reflecting on their social positionality, while recognising the fluidity of social identity across time, situation, and stage in the research.
 
-See also: reflexivity
+*See also: [Reflexivity](https://catalogue.morphss.work/practices/reflexivity/)*
+
+
+## Further reading / resource
+
+Berger, R. (2015). ‘Now I See It, Now I Don’t: Researcher’s Position and Reflexivity in Qualitative Research’, *Qualitative Research: QR*, 15.2, 219–34. [https://doi.org/10.1177/1468794112468475](https://doi.org/10.1177/1468794112468475) 
+
+Boveda, M., and Annamma, S.A. (2023). ‘Beyond Making a Statement: An Intersectional Framing of the Power and Possibilities of Positioning’, *Educational Researcher*, 52.5, 306–14. [https://doi.org/10.3102/0013189X231167149](https://doi.org/10.3102/0013189X231167149)
+
+Collins, H. and McNulty, Y. (2020). ‘Insider Status: (Re)framing Researcher Positionality in International Human Resource Management Studies’, *German Journal of Human Resource Management (Online)*, 34(2), 202–227. [https://doi.org/10.1177/2397002220908425](https://doi.org/10.1177/2397002220908425)
+
+Gani, J.K, and Khan, R.M. (2024). ‘Positionality Statements as a Function of Coloniality: Interrogating Reflexive Methodologies’, *International Studies Quarterly*, 68.2. [https://doi.org/10.1093/isq/sqae038](https://doi.org/10.1093/isq/sqae038) 
+
+Jacobson, D., & Mustafa, N. (2019). 'Social Identity Map: A Reflexivity Tool for Practicing Explicit Positionality in Critical Qualitative Research', *International Journal of Qualitative Methods*, 18. [https://doi.org/10.1177/1609406919870075](https://doi.org/10.1177/1609406919870075)
+
 
 ## References
 
