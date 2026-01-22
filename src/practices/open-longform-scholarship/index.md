@@ -2,6 +2,9 @@
 title: "Open Longform Scholarship"
 slug: open-longform-scholarship
 type: availability
+disciplines:
+  - ah
+  - ss
 img: /images/longform.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
