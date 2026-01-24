@@ -56,10 +56,10 @@ title: Home
 </section>
 
 <section class="outputs-section home-outputs">
-  <h2 class="section-heading">OUTPUTS</h2>
+  <h2 class="section-heading">EXAMPLES</h2>
   
   {% set outputList = collections.outputs %}
-  {% set outputDisplayCount = 3 %}
+  {% set outputDisplayCount = 8 %}
   
   <ul class="output-list">
     {% for output in outputList %}
@@ -87,7 +87,7 @@ title: Home
     <li class="output-item output-item--more">
       <a href="/outputs/">
         <span class="more-count">+{{ outputList.length }}</span>
-        <span class="more-label">Outputs</span>
+        <span class="more-label">Examples</span>
       </a>
     </li>
   </ul>

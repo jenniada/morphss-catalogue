@@ -6,8 +6,6 @@ types:
   - epistemic
 disciplines:
   - ah
-img: /images/authorship.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

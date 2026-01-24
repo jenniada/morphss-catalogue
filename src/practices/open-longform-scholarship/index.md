@@ -5,8 +5,6 @@ type: availability
 disciplines:
   - ah
   - ss
-img: /images/longform.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

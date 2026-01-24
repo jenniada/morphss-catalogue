@@ -432,7 +432,7 @@ main {
 
 .outputs-section .output-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-lg);
 }
 
@@ -447,7 +447,7 @@ main {
 
 .home-outputs .output-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-lg);
 }
 
@@ -895,13 +895,17 @@ main {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .practices-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   
   .outputs-section .output-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .home-outputs .output-list {
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .practice-page {
@@ -913,8 +917,16 @@ main {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .practices-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .outputs-section .output-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .home-outputs .output-list {
     grid-template-columns: 1fr;
   }
   

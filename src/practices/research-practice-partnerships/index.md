@@ -5,8 +5,6 @@ types:
   - participatory
   - epistemic
 discipline: ss
-img: /images/rpp.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

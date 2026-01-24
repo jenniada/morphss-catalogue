@@ -6,8 +6,6 @@ types:
   - availability
   - accessible-communication
 discipline: ss
-img: /images/creative-data.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

@@ -5,8 +5,6 @@ types:
   - process
   - availability
 discipline: ss
-img: /images/open-methods.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-17
 layout: practice.njk
 ---

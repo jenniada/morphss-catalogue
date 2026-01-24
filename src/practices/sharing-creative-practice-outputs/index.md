@@ -5,8 +5,6 @@ types:
   - evidentiary
   - availability
 discipline: ah
-img: /images/creative-outputs.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

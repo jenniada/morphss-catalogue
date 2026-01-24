@@ -8,8 +8,6 @@ types:
 disciplines:
   - ah
   - ss
-img: /images/data-papers.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

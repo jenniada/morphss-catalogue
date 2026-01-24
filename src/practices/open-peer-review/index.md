@@ -8,8 +8,6 @@ types:
 disciplines:
  - ah
  - ss
-img: /images/open-peer-review.jpg
-imgCaption: "caption here"
 lastUpdated: 2026-01-16
 layout: practice.njk
 ---
