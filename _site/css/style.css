@@ -1,15 +1,22 @@
-/* CSS Variables */
+/* ==========================================================================
+   CSS Variables
+   ========================================================================== */
 :root {
+  /* Brand colors */
   --color-primary: #006B4E;
-  --color-primary-dark: #005540;
   --color-text: #333333;
   --color-text-light: #666666;
   --color-background: #ffffff;
   --color-card-bg: #d9d9d9;
-  --color-border: transparent;
   --color-link: #006B4E;
+  
+  /* Typography */
   --font-family: Arial, Helvetica, sans-serif;
+  
+  /* Layout */
   --container-width: 1400px;
+  
+  /* Spacing scale */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
@@ -18,23 +25,27 @@
   --spacing-xxl: 3rem;
 }
 
-/* Reset */
+/* ==========================================================================
+   Reset & Base Styles
+   ========================================================================== */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Base */
 html {
   font-size: 18px;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-family);
   color: var(--color-text);
   background-color: var(--color-background);
+  overflow-x: hidden;
+  min-width: 0;
 }
 
 a {
@@ -67,15 +78,19 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
-/* Container */
+/* ==========================================================================
+   Layout
+   ========================================================================== */
 .container {
-  max-width: 1400px;
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 var(--spacing-xl);
   width: 100%;
 }
 
-/* Logo Bar */
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
 .logo-bar {
   background-color: #ffffff;
   border-bottom: 1px solid #eee;
@@ -147,16 +162,25 @@ main {
   margin-bottom: var(--spacing-sm);
 }
 
-/* Section headings */
-.section-heading {
-  margin-bottom: var(--spacing-lg);
-  font-size: 0.9rem;
+/* Uppercase section headings - shared style */
+.section-heading,
+.description h2,
+.examples h2 {
+  font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-md);
 }
 
-/* Filter Dropdown */
+.section-heading {
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* ==========================================================================
+   Filters & Controls
+   ========================================================================== */
 .filter-container {
   position: relative;
   margin-bottom: var(--spacing-lg);
@@ -291,7 +315,9 @@ main {
   cursor: pointer;
 }
 
-/* Types of Openness Grid */
+/* ==========================================================================
+   Cards & Grids
+   ========================================================================== */
 .types-section {
   margin-top: var(--spacing-xxl);
 }
@@ -322,18 +348,6 @@ main {
   color: var(--color-text);
   line-height: 1.5;
   margin: 0;
-}
-
-@media (max-width: 992px) {
-  .types-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 576px) {
-  .types-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Practices Grid */
@@ -421,7 +435,9 @@ main {
   line-height: 1.4;
 }
 
-/* Outputs Page */
+/* ==========================================================================
+   Outputs
+   ========================================================================== */
 .outputs-page .intro {
   margin-bottom: var(--spacing-xl);
 }
@@ -430,25 +446,23 @@ main {
   list-style: none;
 }
 
-.outputs-section .output-list {
+/* Output grids - shared 3-column layout */
+.outputs-section .output-list,
+.home-outputs .output-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-lg);
 }
 
-.outputs-section .output-item {
+.outputs-section .output-item,
+.home-outputs .output-item {
   margin-bottom: 0;
+  min-width: 0; /* Prevent CSS grid blowout */
 }
 
 /* Home page outputs */
 .home-outputs {
   margin-top: var(--spacing-xxl);
-}
-
-.home-outputs .output-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-lg);
 }
 
 .output-item--more {
@@ -495,6 +509,7 @@ main {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 100%;
 }
 
 .output-item:hover {
@@ -505,12 +520,14 @@ main {
 .output-item .citation {
   margin-bottom: var(--spacing-xs);
   line-height: 1.4;
+  overflow-wrap: break-word;
 }
 
 .output-item .doi {
   margin-bottom: var(--spacing-sm);
 }
 
+/* Break long URLs/DOIs to prevent overflow */
 .output-item .doi a {
   word-break: break-all;
 }
@@ -548,7 +565,9 @@ main {
   display: inline-block;
 }
 
-/* Practice Page - Two Column Layout */
+/* ==========================================================================
+   Practice Page (two-column layout)
+   ========================================================================== */
 .practice-page {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -557,6 +576,7 @@ main {
 
 .practice-content {
   max-width: 100%;
+  min-width: 0; /* Prevent grid blowout */
 }
 
 .practice-header h1 {
@@ -604,14 +624,6 @@ main {
   margin-left: var(--spacing-sm);
 }
 
-.description h2 {
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: var(--spacing-md);
-}
-
 .description p {
   margin-bottom: var(--spacing-sm);
   line-height: 1.4;
@@ -622,6 +634,7 @@ main {
   position: sticky;
   top: var(--spacing-lg);
   align-self: start;
+  min-width: 0; /* Prevent grid blowout */
 }
 
 .practice-image {
@@ -686,14 +699,6 @@ main {
   font-weight: 500;
 }
 
-.examples h2 {
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: var(--spacing-md);
-}
-
 .examples .output-list {
   font-size: 0.9rem;
 }
@@ -715,7 +720,9 @@ main {
   font-size: 0.75rem;
 }
 
-/* Page Layout (for About and other info pages) */
+/* ==========================================================================
+   Generic Page Layout (About, etc.)
+   ========================================================================== */
 .page-layout {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -753,6 +760,7 @@ main {
   position: sticky;
   top: var(--spacing-lg);
   align-self: start;
+  font-size: 0.9rem;
 }
 
 .page-right-column h2 {
@@ -760,10 +768,6 @@ main {
   font-weight: 600;
   margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-md);
-}
-
-.page-right-column {
-  font-size: 0.9rem;
 }
 
 .page-right-column p {
@@ -812,41 +816,9 @@ main {
   margin-bottom: var(--spacing-md);
 }
 
-.funder-credits .funder-logos {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xl);
-  flex-wrap: wrap;
-}
-
-.funder-credits .funder-logos a {
-  display: block;
-}
-
-.funder-credits .funder-logos img {
-  height: 50px;
-  width: auto;
-  filter: grayscale(100%);
-  opacity: 0.7;
-  transition: filter 0.3s ease, opacity 0.3s ease;
-}
-
-.funder-credits .funder-logos a:hover img {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
-@media (max-width: 768px) {
-  .page-layout {
-    grid-template-columns: 1fr;
-  }
-  
-  .page-right-column {
-    position: static;
-  }
-}
-
-/* Footer */
+/* ==========================================================================
+   Footer & Funders
+   ========================================================================== */
 .site-footer {
   padding: var(--spacing-xl) 0;
   margin-top: var(--spacing-xxl);
@@ -870,6 +842,7 @@ main {
   margin-bottom: var(--spacing-md);
 }
 
+/* Funder logos - grayscale with color on hover */
 .funder-logos {
   display: flex;
   align-items: center;
@@ -877,10 +850,12 @@ main {
   flex-wrap: wrap;
 }
 
+.funder-logos a,
 .funder-logo {
   display: block;
 }
 
+.funder-logos img,
 .funder-logo img {
   height: 50px;
   width: auto;
@@ -889,25 +864,31 @@ main {
   transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
+.funder-logos a:hover img,
 .funder-logo:hover img {
   filter: grayscale(0%);
   opacity: 1;
 }
 
-/* Responsive */
+/* ==========================================================================
+   Responsive Breakpoints
+   - 992px: Tablet landscape - 2-column grids, single-column practice page
+   - 768px: Tablet portrait - reduced padding, stacked filters
+   - 600px: Mobile - single-column everything
+   ========================================================================== */
+
 @media (max-width: 992px) {
+  .types-grid,
   .practices-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   
-  .outputs-section .output-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
+  .outputs-section .output-list,
   .home-outputs .output-list {
     grid-template-columns: repeat(2, 1fr);
   }
   
+  /* Practice page collapses to single column */
   .practice-page {
     grid-template-columns: 1fr;
   }
@@ -917,21 +898,80 @@ main {
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+  
+  /* Two-column page layouts collapse */
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .page-right-column {
+    position: static;
+  }
+  
+  /* Filter controls stack vertically */
+  .filter-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+  
+  .discipline-filters {
+    flex-wrap: wrap;
+    height: auto;
+    gap: var(--spacing-sm) var(--spacing-lg);
+  }
+}
+
 @media (max-width: 600px) {
+  /* All grids become single column */
+  .types-grid,
   .practices-grid {
     grid-template-columns: 1fr;
   }
   
-  .outputs-section .output-list {
-    grid-template-columns: 1fr;
-  }
-  
+  .outputs-section .output-list,
   .home-outputs .output-list {
     grid-template-columns: 1fr;
   }
   
+  /* Tighter spacing */
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .output-item {
+    padding: var(--spacing-md);
+  }
+  
+  .output-tags {
+    gap: var(--spacing-sm);
+  }
+  
+  /* Text wrapping for long content */
+  .output-item .citation {
+    hyphens: auto;
+  }
+  
+  /* Smaller typography */
   .site-title {
     font-size: 1.2rem;
+  }
+  
+  .practice-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  /* Smaller funder logos */
+  .funder-logos {
+    gap: var(--spacing-md);
+  }
+  
+  .funder-logos img {
+    height: 35px;
   }
 }
 
