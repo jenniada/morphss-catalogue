@@ -8,7 +8,7 @@ types:
 disciplines:
   - ah
   - ss
-img: /images/traditional-knowledge-labels
+img: /images/traditional-knowledge-labels.png
 imgCaption: "Provenance labels for indigenous cultural materials (https://localcontexts.org/labels/traditional-knowledge-labels/)"
 lastUpdated: 2026-01-14
 layout: practice.njk
