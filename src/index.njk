@@ -98,7 +98,7 @@ title: Home
   
   <div class="types-grid">
     {% for typeKey, typeData in practiceTypes %}
-    <div class="type-card" style="background-color: {{ typeData.color }};">
+    <div class="type-card" style="border-color: {{ typeData.color }};">
       <h3>{{ typeData.name }}</h3>
       <p>{{ typeData.description | safe }}</p>
     </div>
